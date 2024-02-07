@@ -21,7 +21,6 @@ marvelchars= {
   "archenemy": "adrenaline"}
              }
 
-# Case-insensitive dictionary lookup
 char_info = marvelchars.get(char_name)
 if char_info:
     stat_value = char_info.get(char_stat)
