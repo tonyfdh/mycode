@@ -27,4 +27,3 @@ nightmare= [{"slappy": "a", "text": "b", "kumquat": "goggles", "user":{"awesome"
 
 print(f"My {nightmare[0]['user']['name'].get('first')}! The {nightmare[0].get('kumquat')} do {nightmare[0].get('d')}!")
 
-
